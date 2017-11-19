@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Humans.txt"
+date:   2017-11-16 19:38:00 +0100
+categories: jekyll update
+comments: true
+---
+
+## What is humans.txt and how have you configure it for your site?
+
+The humans.txt file is a proof of authorship of the site and ideally should show all the participating developers of the site.  My configuration is simply my name and username.

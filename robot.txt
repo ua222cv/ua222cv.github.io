@@ -1,0 +1,4 @@
+# Ain't havin' no robots on my lawn
+
+User-agent: *
+Disallow: /

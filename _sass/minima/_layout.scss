@@ -1,10 +1,14 @@
 /**
  * Site header
  */
+ 
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
+    background-size: cover;
+    background-image: url("../images/banner1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid $grey-color-dark;
+    min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -106,8 +110,14 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 2px solid $grey-color-dark;
+  border-bottom: 2px solid $grey-color-dark;
   padding: $spacing-unit 0;
+  background-size: 100px;
+    background-image: url("../images/hexbackground.jpg");
+    background-position: center;
+    background-repeat: repeat;
+  
 }
 
 .footer-heading {
@@ -179,8 +189,10 @@
   padding: $spacing-unit 0;
 }
 
+
 .page-heading {
-  @include relative-font-size(1.25);
+  @include relative-font-size(2.25);
+  text-align: center;
 }
 
 .post-list {
@@ -194,7 +206,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: black;
 }
 
 .post-link {
@@ -207,6 +219,16 @@
 /**
  * Posts
  */
+ 
+.post-header, .post-content, .post-list li {
+    padding: 10px;
+    background-size: cover;
+    background-image: url("../../images/metalbackground.jpg");
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid $grey-color-dark;
+}
 .post-header {
   margin-bottom: $spacing-unit;
 }
@@ -215,7 +237,6 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
-
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
@@ -223,7 +244,6 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
-
   h2 {
     @include relative-font-size(2);
 
